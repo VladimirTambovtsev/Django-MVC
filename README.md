@@ -12,7 +12,7 @@ pip install -f requirements.txt
 docker run -p 5432:5432 -d \
     -e POSTGRES_PASSWORD=postgres \
     -e POSTGRES_USER=postgres \
-    -e POSTGRES_DB=typegraphql-example \
+    -e POSTGRES_DB=django_real_estate \
     -v pgdata:/var/lib/postgresql/data \
     postgres
 ```
